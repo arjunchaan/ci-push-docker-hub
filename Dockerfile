@@ -1,4 +1,4 @@
-FROM drydock/u14nod:master
+FROM drydock/u16nodall:master
 
 # Add our configuration files and scripts
 WORKDIR /app
