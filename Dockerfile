@@ -1,9 +1,9 @@
-FROM drydock/u16nodall:master
+FROM centos:7
 
 # Add our configuration files and scripts
-WORKDIR /app
-ADD . /app
-RUN npm install
-EXPOSE 80
+#WORKDIR /app
+#ADD . /app
+#RUN npm install
+#EXPOSE 80
 
-ENTRYPOINT ["/nodejs/bin/npm", "start"]
+#ENTRYPOINT ["/nodejs/bin/npm", "start"]
