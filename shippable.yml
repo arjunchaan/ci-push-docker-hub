@@ -6,5 +6,5 @@ branches:
 
 build:
   ci:
-    - docker build -t CircleCI-Public/circleci-demo-docker:$BRANCH.$BUILD_NUMBER .
+    - docker build -t test/circleci-demo-docker:$BRANCH.$BUILD_NUMBER .
 
