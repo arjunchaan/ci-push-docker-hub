@@ -1,4 +1,4 @@
-FROM readytalk/nodejs
+FROM drydock/u14nod:v6.1.4
 
 # Add our configuration files and scripts
 WORKDIR /app
